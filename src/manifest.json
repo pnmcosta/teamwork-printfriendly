@@ -1,9 +1,9 @@
 {
   "name": "Teamwork Projects Print Friendly",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manifest_version": 2,
-  "description": "Print Friendly Teamwork Projects Task Lists that removes all the unecessary UI elements and includes descriptions and time estimates",
-  "homepage_url": "https://github.com/pnmcosta/teamwork-printfriendly/",
+  "description": "Teamwork Projects Print Friendly Task Lists that removes all the unecessary UI elements and includes descriptions and time estimates",
+  "homepage_url": "http://pnmcosta.github.io/teamwork-printfriendly",
   "background": {
     "scripts": [
       "teamwork-background.js"
@@ -22,7 +22,7 @@
       "32": "icons/icon32.png",
       "128": "icons/icon128.png"
     },
-    "default_title": "Print Friendly Teamwork Projects!"
+    "default_title": "Teamwork Projects Print Friendly!"
   },
   "permissions": [
     "https://*.teamwork.com/*"

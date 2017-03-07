@@ -26,6 +26,10 @@ module.exports = function (grunt) {
                     {
                         pattern: /\"homepage_url\":\s\".*",/gi,
                         replacement: '"homepage_url": "<%= pkg.homepage %>",'
+                    },
+                    {
+                        pattern: /\"default_title\":\s\".*"/gi,
+                        replacement: '"default_title": "<%= pkg.title %>!"'
                     }]
                 }
             },
@@ -50,13 +54,13 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
-                    "dist/production/<%= pkg.name %>-<%= pkg.version %>.crx": [
+                    "dist/<%= pkg.name %>-<%= pkg.version %>.crx": [
                         "src/**/*",
                         "!.{git,svn}",
                         "!*.pem",
                     "!*.psd"
                     ],
-                    "dist/production/<%= pkg.name %>-<%= pkg.version %>.zip": [
+                    "dist/<%= pkg.name %>-<%= pkg.version %>.zip": [
                         "src/**/*",
                         "!.{git,svn}",
                         "!*.pem",
@@ -75,5 +79,5 @@ module.exports = function (grunt) {
     grunt.registerTask('bump-version', 'string-replace');
 
      // Full distribution task.
-    grunt.registerTask('dist', ['clean', 'crx']);
+    grunt.registerTask('dist', ['clean', 'crx:dist']);
 };

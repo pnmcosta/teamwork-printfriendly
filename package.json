@@ -2,7 +2,7 @@
   "name": "teamwork-printfriendly",
   "title": "Teamwork Projects Print Friendly",
   "description": "Teamwork Projects Print Friendly Task Lists that removes all the unecessary UI elements and includes descriptions and time estimates",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "files": [
     "dist",
@@ -11,11 +11,11 @@
     "src/icons/*.png",
     "LICENSE"
   ],
-  "homepage": "http(s)://pnmcosta.github.io/teamwork-printfriendly",
+  "homepage": "http://pnmcosta.github.io/teamwork-printfriendly",
   "author": "Pedro Costa",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pnmcosta/jquery-socialshare.git"
+    "url": "https://github.com/pnmcosta/teamwork-printfriendly.git"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
