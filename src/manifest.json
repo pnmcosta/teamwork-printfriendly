@@ -2,7 +2,7 @@
   "name": "Teamwork Projects Print Friendly",
   "version": "0.1.1",
   "manifest_version": 2,
-  "description": "Teamwork Projects Print Friendly Task Lists that removes all the unecessary UI elements and includes descriptions and time estimates",
+  "description": "Teamwork Projects Print Friendly expanded lists/subtasks description(s) and time estimates with unnecessary UI elements hidden",
   "homepage_url": "http://pnmcosta.github.io/teamwork-printfriendly",
   "background": {
     "scripts": [

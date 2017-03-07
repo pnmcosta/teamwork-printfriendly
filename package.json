@@ -1,11 +1,10 @@
 {
   "name": "teamwork-printfriendly",
   "title": "Teamwork Projects Print Friendly",
-  "description": "Teamwork Projects Print Friendly Task Lists that removes all the unecessary UI elements and includes descriptions and time estimates",
+  "description": "Teamwork Projects Print Friendly expanded lists/subtasks description(s) and time estimates with unnecessary UI elements hidden",
   "version": "0.1.1",
   "license": "MIT",
   "files": [
-    "dist",
     "src/*.js",
     "src/*.css",
     "src/icons/*.png",
