@@ -26,6 +26,8 @@
     .view-header > .btnDrpDwnDiv,
     .view-header .privacy-icon-wrap,
     .taskList .taskList-item .tlh3 .privacy-icon-wrap,
+    .taskList .taskList-item .tlh3 .icons,
+    .taskList .taskList-item .tlh3 .collapsed a,
     .tasks--container div.tlOpts > button,
     .tasks--container div.tlOpts > .subtler,
 	.tasks--container .add--task,
