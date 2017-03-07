@@ -1,6 +1,6 @@
 {
-  "name": "Print Friendly Teamwork Projects",
-  "version": "0.0.1",
+  "name": "Teamwork Projects Print Friendly",
+  "version": "0.1.0",
   "manifest_version": 2,
   "description": "Print Friendly Teamwork Projects Task Lists that removes all the unecessary UI elements and includes descriptions and time estimates",
   "homepage_url": "https://github.com/pnmcosta/teamwork-printfriendly/",
