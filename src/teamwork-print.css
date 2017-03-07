@@ -1,0 +1,49 @@
+@media print {
+    .tasks--container .task-row {
+        padding-left: 130px!important;
+    }
+    .tasks--container .taskDescWrap,
+    .tasks--container div.tlOpts {
+        display: block!important;
+    }
+	.tasks--container .taskDescWrap{
+		margin-left:0!important;
+	}
+    .tasks--container .task-estimatedTimeValue a {
+        color: #272727!important;
+    }
+    .tasks--container div.tlOpts > div {
+        color: #272727!important;
+        font-size: 14px!important;
+        margin-right: 5px!important;
+        font-weight: 600!important;
+    }
+    .view-body.sectionContent div.breadcrumb,
+    .tasks--container .row-rightElements,
+    .tasks--container .assignedTo .taskBubble:before,
+    .tasks--container .task-controls,
+    .tasks--container .row-content-holder a.blue,
+    .view-header > .btnDrpDwnDiv,
+    .tasks--container div.tlOpts > button,
+    .tasks--container div.tlOpts > .subtler,
+	.tasks--container .add--task,
+	.tasks--container > .task-row.extra,
+	.tasks--container > .task-row .tipped-visible {
+        display: none!important;
+    }
+    .tasks--container .assignedTo .taskBubble {
+        border-radius: 3px!important;
+    }
+    .taskList {
+        margin-top: -30px!important;
+    }
+    .taskList .taskList-item .tlh3 {
+        padding-left: 34px!important;
+    }
+    .taskList .taskList-item .tlh3 .btnDrpDwnDiv {
+        left: 8px!important;
+    }
+    .taskList .taskList-item {
+        margin-bottom: 30px!important;
+    }
+}
