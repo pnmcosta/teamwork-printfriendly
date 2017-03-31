@@ -32,7 +32,8 @@
     .tasks--container div.tlOpts > .subtler,
 	.tasks--container .add--task,
 	.tasks--container > .task-row.extra,
-	.tasks--container > .task-row .tipped-visible {
+	.tasks--container > .task-row .tipped-visible,
+    .boards--sub-options {
         display: none!important;
     }
     .tasks--container .assignedTo .taskBubble {
